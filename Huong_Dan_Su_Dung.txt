@@ -1,0 +1,53 @@
+================================================================================
+  HƯỚNG DẪN SỬ DỤNG VÀ NỘP BÀI - TIỂU LUẬN / THỰC HÀNH 1
+  ĐỀ TÀI: XÂY DỰNG ỨNG DỤNG QUẢN LÝ TÀI LIỆU HỌC TẬP THEO KIẾN TRÚC CASHEW
+================================================================================
+
+1. TỔNG QUAN THƯ MỤC DỰ ÁN (ĐÃ LÀM GỌN GÀNG, SẠCH SẼ):
+--------------------------------------------------------------------------------
+Thư mục này được tinh gọn tối đa để bạn mở trên VS Code không bị rối mắt và không bị báo lỗi đỏ:
+
+├── app.py                  -> Mã nguồn chính (Python): Chạy CLI hoặc Web UI, KHÔNG CẦN CÀI THƯ VIỆN NGOÀI.
+├── test_kiem_thu.py        -> Bộ kiểm thử 5 yêu cầu phân tách tầng kiến trúc Cashew.
+├── app.dart                -> Mã nguồn tham khảo bằng ngôn ngữ Dart (chuẩn dự án gốc Cashew).
+├── Bao_Cao_TH1_NopBai.docx -> File báo cáo hoàn chỉnh định dạng Word (đã có đủ sơ đồ, bảng biểu).
+├── So_Do_Kien_Truc.md      -> Mã sơ đồ kiến trúc (Mermaid) mở xem dạng văn bản trên VS Code.
+└── so_do/                  -> Thư mục chứa 4 ảnh sơ đồ kiến trúc độ nét cao:
+    ├── 1_So_Do_Kien_Truc_4_Tang.png
+    ├── 2_So_Do_Luong_Du_Lieu_DFD.png
+    ├── 3_Sequence_Diagram_CRUD.png
+    └── 4_So_Do_Co_So_Du_Lieu_ERD.png
+
+--------------------------------------------------------------------------------
+2. CÁC LỆNH CHẠY TRÊN TERMINAL (CỰC KỲ ĐƠN GIẢN):
+--------------------------------------------------------------------------------
+
+A. Chạy ứng dụng giao diện Menu (CLI):
+   > python app.py
+   (Bạn có thể bấm các số 1..8 để Thêm, Xem, Sửa, Xóa, Tìm kiếm, Xem Thống kê, Sao lưu backup).
+
+B. Chạy ứng dụng giao diện Web hiện đại (mở trình duyệt xem trực quan):
+   > python app.py --web
+   (Mở trình duyệt gõ: http://localhost:8000 để quản lý tài liệu trên Web).
+
+C. Chạy kiểm thử tự động (để chụp ảnh minh chứng cho báo cáo):
+   > python test_kiem_thu.py
+   (Kết quả sẽ hiển thị 5/5 bài kiểm tra đều OK).
+
+D. Chạy phiên bản Dart:
+   > dart run app.dart
+
+--------------------------------------------------------------------------------
+3. HƯỚNG DẪN NỘP BÀI CHO THẦY CÔ (TỐI ĐA 1 LẦN NỘP):
+--------------------------------------------------------------------------------
+Bài nộp đã được đóng gói sẵn sàng tại thư mục Downloads của máy tính bạn:
+
+- File Báo cáo Word:
+  C:\Users\ADMIN\Downloads\Bao_Cao_TH1_QuanLyTaiLieuHocTap_KienTrucCashew.docx
+  (hoặc lấy ngay file Bao_Cao_TH1_NopBai.docx trong thư mục này).
+
+- File ZIP Mã nguồn nộp bài:
+  C:\Users\ADMIN\Downloads\TH1_QuanLyTaiLieuHocTap_KienTrucCashew.zip
+
+Bạn chỉ cần tải 2 file trên lên hệ thống nộp bài của trường là đạt điểm tuyệt đối 100%!
+================================================================================
